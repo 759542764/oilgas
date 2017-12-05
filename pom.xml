@@ -33,38 +33,49 @@
             <artifactId>jama</artifactId>
             <version>1.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.29</version>
+        </dependency>
 
         <!-- ketttle -->
-        <dependency>
-            <groupId>pentaho-kettle</groupId>
-            <artifactId>kettle-core</artifactId>
-            <version>${kettle.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.verhas</groupId>
-            <artifactId>license3j</artifactId>
-            <version>1.0.7 </version>
-        </dependency>
-        <dependency>
-            <groupId>pentaho-kettle</groupId>
-            <artifactId>kettle-dbdialog</artifactId>
-            <version>${kettle.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>pentaho-kettle</groupId>
-            <artifactId>kettle-engine</artifactId>
-            <version>${kettle.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>pentaho</groupId>
-            <artifactId>metastore</artifactId>
-            <version>${kettle.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>19.0</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>pentaho-kettle</groupId>-->
+            <!--<artifactId>kettle-core</artifactId>-->
+            <!--<version>${kettle.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.verhas</groupId>-->
+            <!--<artifactId>license3j</artifactId>-->
+            <!--<version>1.0.7 </version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>pentaho-kettle</groupId>-->
+            <!--<artifactId>kettle-dbdialog</artifactId>-->
+            <!--<version>${kettle.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>pentaho-kettle</groupId>-->
+            <!--<artifactId>kettle-engine</artifactId>-->
+            <!--<version>${kettle.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>pentaho</groupId>-->
+            <!--<artifactId>metastore</artifactId>-->
+            <!--<version>${kettle.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.google.guava</groupId>-->
+            <!--<artifactId>guava</artifactId>-->
+            <!--<version>19.0</version>-->
+        <!--</dependency>-->
     </dependencies>
 
 
