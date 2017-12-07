@@ -1,15 +1,12 @@
-package com.kettle;
+package com.mapper;
 
 /**
  * <p>Description: .</p>
  * <p>Company: </p>
- * <p>Date: 2017/12/5 11:05</p>
+ * <p>Date: 2017/12/6 15:37</p>
  * <p>Copyright: 2016-2017 </p>
  *
  * @author hyq
  */
-
-public class KettleTest {
-
-
+public interface HelloMapper {
 }

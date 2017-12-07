@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * <p>Description: .</p>
  * <p>Company: </p>
  * <p>Date: 2017/11/14 16:48</p>
- * <p>Copyright: 2016-2017 happylifeplat.com All Rights Reserved</p>
+ * <p>Copyright: 2016-2017 </p>
  *
  * @author hyq
  */

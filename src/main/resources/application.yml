@@ -6,6 +6,50 @@ server:
     timeout: 300
   context-path: "/oil-gas"
 
+#日志级别
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    org.apache.ibatis: INFO
+    com: DEBUG
+
 
 debug: true
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@
+    username: tang
+    password: tang
+    dbcp2:
+      min-idle: 1
+      initial-size: 1
+    tomcat:
+      max-active: 2
+      time-between-eviction-runs-millis: 3000
+      min-evictable-idle-time-millis: 3000000
+      validation-query: SELECT 'ZTM' FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+
+mybatis:
+  mapper-locations: "classpath:mapper/*.xml"
+  type-aliases-package: "com.mapper"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
